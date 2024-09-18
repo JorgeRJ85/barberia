@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!--Bostrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- CSS-->
+  <link rel="stylesheet" href="/CSS/style.css">
+
+  <title>Document</title>
+</head>
+
+<body>
+  <header >
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Tu Logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#nosotros">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#servicio">Servicios</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Servicio 1</a></li>
+                  <li></li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Servico 2</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Servicio 3</a></li>
+                </ul>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-disabled="true" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+ <!-- Carrsuel-->
+  <section class="carrusel">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://c.pxhere.com/photos/98/01/barber_barbershop_hair_stylist_haircut_hairdo_hairdresser_hairstylist_men-994115.jpg!d" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>El arte del corte perfecto</h5>
+            <p>La esencia de la barbería comienza aquí. Un profesional de la barbería dedicado a perfeccionar el arte del corte, brindando un servicio personalizado para cada cliente. Cada detalle cuenta en la experiencia de nuestra barbería</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://c.pxhere.com/photos/f8/51/hair_salon_salon_beauty_salon_stylist_haircut_comb_scissors_barber-580326.jpg!d" class="d-block w-100"  alt="hombre, noche, Retro, silla, restaurante, masculino, bar, tienda, almacenar, negocio, mueble, estilo de vida, iluminación, habilidad, barba, Hipster, diseño de interiores, barbería, afeitado, Hdr, cafetería, salón, Barbero, peluquero, elegante, aseo, de moda, masculinidad, Fotos gratis In PxHere">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Herramientas de precisión</h5>
+            <p> Nuestro equipo utiliza solo instrumentos de alta calidad, asegurando que cada cliente reciba el mejor cuidado posible. La tradición y la innovación se encuentran en nuestras manos..</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://c.pxhere.com/photos/c0/ef/barbershop_barber_salon_haircut_style_cutting_hair_male-538741.jpg!d" class="d-block w-100" alt="cabello, vendimia, antiguo, interior, edificio, restaurante, masculino, corte, diseño de interiores, barbería, Corte de pelo, sillas, dentro, Hdr, adentro, luces, cafetería, Espejos, salón, estilo, Barbero, Pasado de moda, Montgomery, Alabama, Fotos gratis In PxHere">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Tu momento de relajaciónl</h5>
+            <p>Relájate antes de tu turno en nuestra cómoda sala de espera. Un espacio diseñado para que te sientas bienvenido y disfrutes de la atmósfera acogedora mientras esperas tu transformación.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+
+  <section id="nosotros" class="container py-5">
+    <div class="row text-center mb-4 align-items-center">
+      <div class="col-md-6">
+      <h2>Barberos Profesionales a tu Servicio</h2>
+      <p class="lead">En nuestra barbería contamos con un equipo altamente capacitado para ofrecerte el mejor servicio. Cada uno de nuestros profesionales está comprometido en brindarte un corte personalizado que se ajuste perfectamente a tu estilo y preferencias. ¡Confía en nuestras manos expertas para que luzcas impecable!</p>
+      </div>
+      
+    
+    <div class="col-md-6">
+      <div class="d-flex justify-content-around">
+        <img class="img-fluid custom-img"  src="https://c.pxhere.com/photos/e6/cd/adult_barber_blur_close_up_fashion_focus_gentleman_hair-1538515.jpg!d" srcset="https://c.pxhere.com/photos/e6/cd/adult_barber_blur_close_up_fashion_focus_gentleman_hair-1538515.jpg!d" alt="cabello, peluquero, Barbero, peinado, vello facial, salón de belleza, tinte de pelo, audio, Fotos gratis In PxHere">
+        <img class="img-fluid custom-img custom-2"  src="https://c.pxhere.com/photos/68/8f/adult_barber_barbershop_beard_cut_facial_expression_facial_hair_hair_salon-1568819.jpg!d" srcset="https://c.pxhere.com/photos/68/8f/adult_barber_barbershop_beard_cut_facial_expression_facial_hair_hair_salon-1568819.jpg!d" alt="cabello, Barbero, vello facial, barba, peluquero, peinado, cabeza, tatuaje, frente, Corte de zumbido, músculo, mandíbula, tinte de pelo, oreja, Fotos gratis In PxHere">
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section id="servicio" class="container py-5">
+    <div class="row text-center mb-4">
+      <div class="col">
+        <h2>Conoce Nuestros Servicios</h2>
+        <p class="lead">Ofrecemos una variedad de servicios diseñados para realzar tu estilo y brindarte una experiencia única en nuestra barbería.</p>
+      </div>
+    </div>
+    
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="service-box p-4">
+          <img src="https://c.pxhere.com/photos/61/21/expocosm_tica_man_beard_barber_model-810831.jpg!d" class="img-fluid mb-3" alt="Barbería">
+          <h4>Barbería</h4>
+          <p>La esencia tradicional de nuestra barbería, donde cada detalle importa para ofrecerte un servicio personalizado.</p>
+        </div>
+      </div>
+  
+      <div class="col-md-4">
+        <div class="service-box p-4">
+          <img src="https://c.pxhere.com/photos/d1/9f/expocosm_tica_presentation_model_hairdresser_cut_hair_man_cosmetics-809974.jpg!d" class="img-fluid mb-3" alt="Corte de pelo">
+          <h4>Corte de Pelo</h4>
+          <p>Cortes modernos y clásicos ajustados a tu estilo personal, realizados por nuestros expertos barberos.</p>
+        </div>
+      </div>
+  
+      <div class="col-md-4">
+        <div class="service-box p-4">
+          <img src="https://c.pxhere.com/photos/0d/dc/man_guy_male_barber_shaving-1327859.jpg!d" class="img-fluid mb-3" alt="Afeitado clásico">
+          <h4>Afeitado Clásico</h4>
+          <p>Disfruta de un afeitado tradicional con navaja, acompañado de paños calientes y productos de alta calidad.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer id="contacto" class="bg-dark text-light py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <h5>Sobre Nosotros</h5>
+          <p>En nuestra barbería, combinamos la tradición con la modernidad para ofrecerte los mejores servicios de barbería, corte de pelo y afeitado clásico. Ven y vive una experiencia única con nosotros.</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5>Contacto</h5>
+          <ul class="list-unstyled">
+            <li><i class="bi bi-house-door"></i> Calle Ejemplo 123, Ciudad, País</li>
+            <li><i class="bi bi-envelope"></i> contacto@barberia.com</li>
+            <li><i class="bi bi-telephone"></i> +123 456 789</li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5>Síguenos</h5>
+          <div class="social-links">
+            <a href="#" class="text-light me-2"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-light me-2"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-light me-2"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col text-center">
+          <p class="mb-0">&copy; 2024 Barbería. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

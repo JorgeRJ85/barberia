@@ -1,0 +1,36 @@
+header{
+    background-color: black;
+
+}
+
+
+
+.carousel-item img{
+    
+    max-height: 500px;
+}
+
+.custom-img {
+    max-width: 45%; /* Limita el tamaño de las imágenes al 45% del ancho del contenedor */
+    height: auto;   /* Mantiene la proporción de las imágenes */
+    border-radius: 10px;
+  }
+
+  .bi{
+    font-size: 1.5rem ;
+  }
+
+
+  @media (max-width: 768px) {
+    .custom-img {
+      max-width: 100%; /* En pantallas pequeñas, las imágenes ocuparán todo el ancho disponible */
+      margin-bottom: 15px;
+    }
+    .d-flex {
+      flex-direction: column; /* Coloca las imágenes en una columna en pantallas pequeñas */
+    }
+
+    .custom-2{
+        display: none;
+    }
+  }
