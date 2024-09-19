@@ -17,9 +17,11 @@ body{
 }
 
 .custom-img {
-    max-width: 45%; /* Limita el tamaño de las imágenes al 45% del ancho del contenedor */
-    max-height: 45%;   /* Mantiene la proporción de las imágenes */
-    border-radius: 10px;
+  max-width: 45%;
+  max-height: 45%;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
   }
 
   .bi{
