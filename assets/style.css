@@ -17,8 +17,8 @@ body{
 }
 
 .custom-img {
-  max-width: 45%;
-  max-height: 45%;
+  max-width: 300px;
+  max-height: 300px;
   width: auto;
   height: auto;
   border-radius: 10px;
